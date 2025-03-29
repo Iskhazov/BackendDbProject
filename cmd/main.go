@@ -13,7 +13,7 @@ func main() {
 	db, err := db.NewMySQLStorage(mysql.Config{
 		User:                 config.Envs.DBUser,
 		Passwd:               config.Envs.DBPassword,
-		Addr:                 config.Envs.DBUser,
+		Addr:                 config.Envs.DBAddress,
 		DBName:               config.Envs.DBName,
 		Net:                  "tcp",
 		AllowNativePasswords: true,
