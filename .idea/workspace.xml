@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35898234-f0e6-4a5d-ace9-21aabffbf447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/auth/password.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/user/store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/user/routes_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ecom" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ecom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/api.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/user/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Temirlan/GolandProjects/awesomeProject/main.go&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Temirlan/GolandProjects/awesomeProject/main.go&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,7 +67,7 @@
       <recent name="C:\Users\Temirlan\GolandProjects\awesomeProject\Gofiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.build">
+  <component name="RunManager" selected="Makefile Target.test">
     <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="BackendDbProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,10 +113,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.build" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Go Build.go build awesomeProject/cmd" />
-        <item itemvalue="Makefile Target.test" />
       </list>
     </recent_temporary>
   </component>

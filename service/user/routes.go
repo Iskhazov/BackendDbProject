@@ -5,6 +5,7 @@ import (
 	"awesomeProject/types"
 	"awesomeProject/utils"
 	"fmt"
+	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
 	"net/http"
 )
@@ -27,8 +28,15 @@ func (h *Handler) handleLogin(w http.ResponseWriter, r *http.Request) {}
 func (h *Handler) handleRegister(w http.ResponseWriter, r *http.Request) {
 	// get JSON payload
 	var payload types.RegisterUserPayload
-	if err := utils.ParseJSON(r, payload); err != nil {
+	if err := utils.ParseJSON(r, &payload); err != nil {
 		utils.WriteError(w, http.StatusBadRequest, err)
+		return
+	}
+	// validate the payload
+	if err := utils.Validate.Struct(payload); err != nil { //??? зачем здесь if
+		errors := err.(validator.ValidationErrors)
+		utils.WriteError(w, http.StatusBadRequest, fmt.Errorf("invalid payload %v", errors))
+		return
 	}
 	//check if the user exists
 	_, err := h.store.GetUserByEmail(payload.Email)
