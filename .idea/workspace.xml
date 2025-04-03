@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35898234-f0e6-4a5d-ace9-21aabffbf447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/auth/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/auth/jwt_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/auth/password_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a222f32-348c-48d6-a4ce-144d5cacc86c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a222f32-348c-48d6-a4ce-144d5cacc86c/storage_v2/_src_/schema/ecom._GovAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93775ac3-c2c1-4589-ba62-dfcf8361af87.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93775ac3-c2c1-4589-ba62-dfcf8361af87/storage_v2/_src_/schema/ecom._GovAA.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/product/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/product/store.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ecom" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ecom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/auth/password.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/auth/password.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/user/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/user/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/api.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/types/types.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
