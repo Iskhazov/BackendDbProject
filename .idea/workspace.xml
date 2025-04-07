@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35898234-f0e6-4a5d-ace9-21aabffbf447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/product/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/cart/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/cart/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/order/store.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ecom" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ecom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/auth/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/auth/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/store.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/types/types.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,41 +39,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build awesomeProject.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build awesomeProject/cmd.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.build.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.run.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Temirlan/GolandProjects/BackendDbProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Temirlan/GolandProjects/awesomeProject/main.go&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build awesomeProject.executor": "Run",
+    "Go Build.go build awesomeProject/cmd.executor": "Debug",
+    "Makefile Target.build.executor": "Run",
+    "Makefile Target.run.executor": "Run",
+    "Makefile Target.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Temirlan/GolandProjects/BackendDbProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Temirlan/GolandProjects/awesomeProject/main.go",
+    "settings.editor.selected.configurable": "go.vgo"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Temirlan\GolandProjects\BackendDbProject\service\order" />
       <recent name="C:\Users\Temirlan\GolandProjects\awesomeProject" />
       <recent name="C:\Users\Temirlan\GolandProjects\awesomeProject\Gofiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.run">
+  <component name="RunManager" selected="Go Build.go build awesomeProject/cmd">
     <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="BackendDbProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,10 +122,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build awesomeProject/cmd" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.build" />
-        <item itemvalue="Go Build.go build awesomeProject/cmd" />
       </list>
     </recent_temporary>
   </component>
@@ -139,5 +143,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/cart/routes.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

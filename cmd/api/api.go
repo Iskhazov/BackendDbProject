@@ -1,6 +1,8 @@
 package api
 
 import (
+	"awesomeProject/service/cart"
+	"awesomeProject/service/order"
 	"awesomeProject/service/product"
 	"awesomeProject/service/user"
 	"database/sql"
@@ -31,6 +33,10 @@ func (s *Server) Run() error {
 	productStore := product.NewStore(s.db)
 	productHandler := product.NewHandler(productStore)
 	productHandler.RegisterRoutes(subrouter)
+
+	orderStore := order.NewStore(s.db)
+	cartHAndler := cart.NewHandler(orderStore, productStore, userStore)
+	cartHAndler.RegisterRoutes(subrouter)
 
 	log.Println("Listening on ", s.addr)
 	return http.ListenAndServe(s.addr, router)
