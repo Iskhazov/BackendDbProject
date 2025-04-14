@@ -5,7 +5,7 @@ MySQL is used for storage, with included migration scripts for setup.
 
 Setup
 Clone repository
-git clone https://github.com/zhetkerbaevan/personal-blog.git
+git clone 
 cd personal_blog
 Install Dependencies
 go mod tidy
