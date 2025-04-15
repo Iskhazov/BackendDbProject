@@ -1,4 +1,4 @@
-# Personal Blog REST API
+# BackendDbProject
 Users can register, obtain JWT tokens for authentication, and perform CRUD operations on posts.  
 MySQL is used for storage, with included migration scripts for setup.
 ## Setup
