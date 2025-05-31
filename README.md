@@ -5,7 +5,7 @@ MySQL is used for storage, with included migration scripts for setup.
 1. Clone repository
 ```sh
 git clone 
-cd personal_blog
+cd BackendDbProject
 ```
 2. Install Dependencies
  ```sh
